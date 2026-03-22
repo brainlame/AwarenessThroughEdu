@@ -1,22 +1,29 @@
-@import '@fontsource/geist-sans';
-@import '@fontsource/geist-mono';
+@import '@fontsource/merriweather/index.css';
+@import '@fontsource/merriweather/400.css';
+@import '@fontsource/merriweather/700.css';
+@import '@fontsource/geist-mono/index.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: #ffffff;
-    --foreground: #0f172a;
+    --background: #000000;
+    --foreground: #ffffff;
+  }
+
+  html {
+    background-color: #000000;
   }
 
   body {
-    @apply bg-white text-slate-900;
-    font-family: 'Geist Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    @apply bg-black text-white;
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: "kern" 1, "liga" 1;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
   }
 
   * {

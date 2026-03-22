@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Geist Sans', 'system-ui', 'sans-serif'],
+				sans: ['Merriweather', 'Georgia', 'Times New Roman', 'serif'],
 				mono: ['Geist Mono', 'monospace']
 			}
 		}
