@@ -70,50 +70,43 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="relative min-h-screen flex items-center bg-black border-b border-gray-800">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
-        <!-- Left: Text Content -->
-        <div class="relative z-10 py-20">
-          <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span class="block text-white">Awareness Through</span>
-            <span class="block bg-gradient-to-r from-blue-500 via-blue-400 to-blue-600 bg-clip-text text-transparent">
-              Knowledge
-            </span>
-          </h1>
-
-          <p class="text-xl md:text-2xl text-gray-400 mb-12 leading-relaxed font-light max-w-xl">
-            Translating reliable medical research into clear, engaging, and accessible visuals.
-          </p>
-        </div>
-
-        <!-- Right: Semicircle with Button -->
-        <div class="relative flex items-center justify-center lg:justify-end">
-          <!-- Horizontally stretched semicircle -->
-          <div class="relative w-full aspect-[2/1] max-w-2xl">
-            <!-- Semicircle background -->
-            <div class="absolute inset-0 rounded-t-full bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 shadow-2xl shadow-blue-900/50 overflow-hidden border-2 border-blue-800/50">
-              <!-- Animated background elements inside semicircle -->
-              <div class="absolute inset-0 overflow-hidden">
-                <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/20 rounded-full mix-blend-overlay filter blur-2xl animate-blob"></div>
-                <div class="absolute top-1/2 right-1/4 w-64 h-64 bg-blue-400/20 rounded-full mix-blend-overlay filter blur-2xl animate-blob animation-delay-2000"></div>
-              </div>
-
-              <!-- Button container -->
-              <div class="absolute inset-0 flex items-center justify-center">
-                <a
-                  href="/infographics"
-                  class="group relative px-8 py-4 bg-blue-600 text-white font-bold text-lg rounded-2xl shadow-lg shadow-blue-900/50 hover:shadow-2xl hover:shadow-blue-800/50 transition-all duration-300 hover:scale-105"
-                >
-                  <span class="relative z-10">View Infographics</span>
-                  <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </a>
-              </div>
-            </div>
-          </div>
+  <section class="relative min-h-screen flex items-center bg-black border-b border-gray-800 overflow-hidden pt-20">
+    <!-- Circle positioned absolutely, starting from middle -->
+    <div class="absolute left-1/2 top-1/2 -translate-y-1/2 w-[55vw] aspect-square max-h-[calc(100vh-10rem)] mt-8 z-0 pointer-events-none">
+      <!-- Circle background -->
+      <div class="absolute inset-0 rounded-full bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 shadow-2xl shadow-blue-900/50 overflow-hidden border-2 border-blue-800/50 scale-x-[1.8] origin-left">
+        <!-- Animated background elements inside circle -->
+        <div class="absolute inset-0 overflow-hidden">
+          <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/20 rounded-full mix-blend-overlay filter blur-2xl animate-blob"></div>
+          <div class="absolute top-1/2 right-1/4 w-64 h-64 bg-blue-400/20 rounded-full mix-blend-overlay filter blur-2xl animate-blob animation-delay-2000"></div>
         </div>
       </div>
     </div>
+
+    <!-- Text Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+      <div class="max-w-2xl py-20">
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          <span class="block text-white">Awareness Through</span>
+          <span class="block bg-gradient-to-r from-blue-500 via-blue-400 to-blue-600 bg-clip-text text-transparent pb-3">
+            Knowledge
+          </span>
+        </h1>
+
+        <p class="text-xl md:text-2xl text-gray-400 mb-12 leading-relaxed font-light max-w-xl">
+          Translating reliable medical research into clear, engaging, and accessible visuals.
+        </p>
+      </div>
+    </div>
+
+    <!-- Button positioned absolutely with higher z-index -->
+    <a
+      href="/infographics"
+      class="group absolute left-[calc(50%+15rem)] top-1/2 -translate-y-1/2 mt-8 z-20 px-8 py-4 bg-blue-600 text-white font-bold text-lg rounded-2xl shadow-lg shadow-blue-900/50 hover:shadow-2xl hover:shadow-blue-800/50 transition-all duration-300 hover:scale-105"
+    >
+      <span class="relative z-10">View Infographics</span>
+      <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </a>
   </section>
 
   <!-- Mission Statement Section -->
@@ -189,7 +182,7 @@
   </section>
 
   <!-- Footer -->
-  <footer id="contact-footer" class="relative h-[50vh] bg-black flex items-center">
+  <footer id="contact-footer" class="relative h-72 bg-black flex items-center">
     <!-- Background decoration -->
     <div class="absolute inset-0">
       <div class="absolute top-1/2 left-1/4 w-96 h-96 bg-blue-900/20 rounded-full blur-3xl"></div>

@@ -174,7 +174,7 @@
   </section>
 
   <!-- Footer -->
-  <footer id="contact-footer" class="relative h-[50vh] bg-black flex items-center">
+  <footer id="contact-footer" class="relative h-24 bg-black flex items-center">
     <!-- Background decoration -->
     <div class="absolute inset-0">
       <div class="absolute top-1/2 left-1/4 w-96 h-96 bg-blue-900/20 rounded-full blur-3xl"></div>
