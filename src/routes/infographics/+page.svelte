@@ -16,15 +16,15 @@
 </script>
 
 <!-- Hero Section -->
-  <section class="relative min-h-[60vh] flex items-center justify-center bg-black pt-20 border-b border-gray-800">
-    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-20 text-center">
+  <section class="relative min-h-[60vh] flex items-center justify-center bg-black pt-16 sm:pt-20 border-b border-gray-800">
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 text-center">
       <!-- <div class="inline-block px-4 py-2 bg-blue-950 border border-blue-800 rounded-full mb-6">
         <span class="text-sm font-semibold text-blue-400">Visual Learning</span>
       </div> -->
 
-      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
         <span class="block text-white">Healthcare</span>
-        <span class="block bg-gradient-to-r from-blue-500 via-blue-400 to-blue-600 bg-clip-text text-transparent pb-5">
+        <span class="block bg-gradient-to-r from-blue-500 via-blue-400 to-blue-600 bg-clip-text text-transparent pb-3 sm:pb-5">
           Infographics
         </span>
       </h1>
@@ -32,10 +32,10 @@
   </section>
 
   <!-- Categories Section -->
-  <section class="relative py-20 bg-gradient-to-b from-black to-gray-950 border-b border-gray-800">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold text-white">
+  <section class="relative py-12 sm:py-16 md:py-20 bg-gradient-to-b from-black to-gray-950 border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Browse by
           <span class="bg-gradient-to-r from-blue-500 to-blue-400 bg-clip-text text-transparent"> category</span>
         </h2>
@@ -80,10 +80,10 @@
   </section>
 
   <!-- Infographics Gallery Section -->
-  <section class="relative py-20 bg-gray-950 border-b border-gray-800">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold text-white">
+  <section class="relative py-12 sm:py-16 md:py-20 bg-gray-950 border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Latest
           <span class="bg-gradient-to-r from-blue-500 to-blue-400 bg-clip-text text-transparent"> infographics</span>
         </h2>
