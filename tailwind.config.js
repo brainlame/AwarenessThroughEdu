@@ -6,7 +6,13 @@ export default {
 			fontFamily: {
 				sans: ['Merriweather', 'Georgia', 'Times New Roman', 'serif'],
 				mono: ['Geist Mono', 'monospace']
-			}
+			},
+			colors: {
+				azure: {
+					DEFAULT: '#0b3c62',
+					light: '#8CBEE3',
+				},
+			},
 		}
 	},
 	plugins: []

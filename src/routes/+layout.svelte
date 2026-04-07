@@ -9,17 +9,14 @@
 
 <div class="min-h-screen bg-black overflow-x-hidden">
   <!-- Navbar -->
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-950 shadow-lg transition-all duration-300">
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-azure shadow-lg transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 sm:h-20">
         <a href="/" class="flex items-center gap-2 sm:gap-3 group">
           <!-- Logo -->
-          <div class="w-16 h-8 sm:w-24 sm:h-12 bg-blue-400 rounded-xl sm:rounded-2xl flex items-center justify-center border border-gray-700 group-hover:border-blue-500 transition-all overflow-hidden px-2 sm:px-4">
+          <div class="w-16 h-8 sm:w-24 sm:h-12 bg-azure-light rounded-xl sm:rounded-2xl flex items-center justify-center border border-gray-700 group-hover:border-blue-500 group-hover:scale-105 duration-300 transition-all overflow-hidden px-2 sm:px-4">
             <img src="/logo.png" alt="ATK Logo" class="w-full h-full object-contain" />
           </div>
-          <span class="hidden sm:inline text-xl font-bold bg-gradient-to-r from-blue-500 to-blue-400 bg-clip-text text-transparent">
-            ATK
-          </span>
         </a>
 
         <div class="flex items-center gap-3 sm:gap-6 md:gap-8">
@@ -54,14 +51,14 @@
         <div class="text-center md:text-left">
           <div class="flex items-center gap-2 sm:gap-3 mb-4 justify-center md:justify-start">
             <!-- Logo -->
-            <div class="w-16 h-8 sm:w-24 sm:h-12 bg-blue-400 rounded-xl sm:rounded-2xl flex items-center justify-center border border-gray-700 overflow-hidden px-2 sm:px-4">
+            <div class="w-16 h-8 sm:w-24 sm:h-12 bg-white rounded-xl sm:rounded-2xl flex items-center justify-center border border-gray-700 overflow-hidden px-2 sm:px-4">
               <img src="/logo.png" alt="ATK Logo" class="w-full h-full object-contain" />
             </div>
-            <span class="text-xl sm:text-2xl font-bold text-white">ATK</span>
+            <!-- <span class="text-xl sm:text-2xl font-bold text-white">ATK</span> -->
           </div>
-          <p class="text-gray-500 text-xs sm:text-sm">
+          <!-- <p class="text-gray-500 text-xs sm:text-sm">
             © 2024 Awareness Through Knowledge. All rights reserved.
-          </p>
+          </p> -->
         </div>
 
         <!-- Right: Contact Links -->
