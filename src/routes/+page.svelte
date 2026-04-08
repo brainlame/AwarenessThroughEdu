@@ -42,6 +42,25 @@
         <p class="text-lg sm:text-xl md:text-2xl text-gray-400 mb-8 sm:mb-12 leading-relaxed font-light max-w-xl mx-auto md:mx-0">
           Translating reliable medical research into clear, engaging, and accessible visuals.
         </p>
+
+        <!-- Mobile rounded rectangular box with button -->
+        <div class="md:hidden flex justify-center mt-16">
+          <div class="relative px-36 py-24 bg-azure rounded-3xl shadow-2xl shadow-azure/50">
+            <!-- Animated background elements -->
+            <div class="absolute inset-0 overflow-hidden rounded-3xl">
+              <div class="absolute top-1/4 left-1/4 w-32 h-32 bg-blue-500/20 rounded-full mix-blend-overlay filter blur-2xl animate-blob"></div>
+              <div class="absolute top-1/2 right-1/4 w-32 h-32 bg-blue-400/20 rounded-full mix-blend-overlay filter blur-2xl animate-blob animation-delay-2000"></div>
+            </div>
+
+            <!-- Button -->
+            <a
+              href="/infographics"
+              class="relative group px-8 py-4 bg-azure-light text-black font-bold text-lg rounded-2xl shadow-lg shadow-azure/50 hover:shadow-2xl hover:shadow-azure/50 transition-all duration-300 hover:scale-105 inline-block"
+            >
+              <span class="relative z-10">View Infographics</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
