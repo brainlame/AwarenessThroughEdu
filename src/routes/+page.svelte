@@ -45,7 +45,7 @@
 
         <!-- Mobile rounded rectangular box with button -->
         <div class="md:hidden flex justify-center mt-16">
-          <div class="relative px-36 py-24 bg-azure rounded-3xl shadow-2xl shadow-azure/50">
+          <div class="relative px-32 py-12 bg-azure rounded-3xl shadow-2xl shadow-azure/50">
             <!-- Animated background elements -->
             <div class="absolute inset-0 overflow-hidden rounded-3xl">
               <div class="absolute top-1/4 left-1/4 w-32 h-32 bg-blue-500/20 rounded-full mix-blend-overlay filter blur-2xl animate-blob"></div>

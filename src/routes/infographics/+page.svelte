@@ -5,7 +5,7 @@
 
   const infographics = [
     {
-      title: "Sleep Is Not Optional",
+      title: "Sleep Deprivation",
       image: SleepImage,
       description: "Understanding the importance of sleep for your health and well-being."
     },
