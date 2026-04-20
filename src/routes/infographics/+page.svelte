@@ -2,17 +2,25 @@
   import { slide } from 'svelte/transition';
   import SleepImage from '$lib/Sleep_Is_Not_Optional.png';
   import AllergiesImage from '$lib/Allergies.png';
+  import Autism from '$lib/autism.png';
+  import AutoimmuneDiseases from '$lib/autoimmune_diseases.png';
 
   const infographics = [
     {
       title: "Sleep Deprivation",
-      image: SleepImage,
-      description: "Understanding the importance of sleep for your health and well-being."
+      image: SleepImage
     },
     {
       title: "Allergies",
-      image: AllergiesImage,
-      description: "A comprehensive guide to understanding and managing allergies."
+      image: AllergiesImage
+    },
+    {
+      title: "Autism",
+      image: Autism
+    },
+    {
+      title: "Autoimmune Diseases",
+      image: AutoimmuneDiseases
     }
   ];
 

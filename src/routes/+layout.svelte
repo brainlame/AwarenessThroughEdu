@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Awareness Through Education</title>
+  <title>Awareness Through Knowledge</title>
   <meta name="description" content="Empowering Communities Through Healthcare Knowledge" />
 </svelte:head>
 
